@@ -30,6 +30,9 @@ function MovieList() {
               <th>Director</th>
               <th>Rating</th>
               <th>Catrgory</th>
+              <th>Edited</th>
+              <th>Lent To</th>
+              <th>Notes</th>
             </tr>
           </thead>
           <tbody>

@@ -7,6 +7,8 @@ import TopBanner from './Blah';
 import MovieList from './Movies';
 import podcast from './Podcast';
 
+import Movielist1 from './movies/MovieList';
+
 function App() {
   return (
     <Router>
@@ -51,7 +53,7 @@ function App() {
         <Routes>
           <Route path="/" Component={TopBanner} />
           <Route path="/podcast" Component={podcast} />
-          <Route path="/movies" Component={MovieList} />
+          <Route path="/movies" Component={Movielist1} />
         </Routes>
       </div>
     </Router>
